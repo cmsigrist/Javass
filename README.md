@@ -21,14 +21,14 @@ jn represents the n-th player and must be one of the following:
 In solo mode you play with a bot against two other bots.
 The simulated players pick their next card to play according to the Monte Carlo Tree Search algorithm.
 
-An example of configuration for such a game would then be:
+An example of configuration for such a game would then be:  
 `h:Alice s:East s:North s:West`
 
 ### In multiplayer mode
 If, for example, Alice and Bob want to play together against two bots, 
 Bob first needs to run the `RemoteMain` (i.e. the server), Alice can then run the `LocalMain` 
-(i.e. the client) with the following configuration:
-`h:Alice s:East r:Bob:192.168.0.1 s:West`
+(i.e. the client) with the following configuration:  
+`h:Alice s:East r:Bob:192.168.0.1 s:West`  
 where "192.168.0.1" is Bob's IP address
 
 
